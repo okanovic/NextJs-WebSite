@@ -1,9 +1,11 @@
-import Layout from '../components/layout'
+import Layout from "../components/layout";
 
-export default function HomePage() {
-    return (
-        <Layout>
-            <h1> Welcome to Next.js!</h1>
-        </Layout>
-    )
+function HomePage() {
+  return (
+    <Layout>
+      <h1> Welcome to Next.js!</h1>
+    </Layout>
+  );
 }
+
+export default HomePage;
