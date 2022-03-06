@@ -4,6 +4,7 @@ export function HomePage() {
   return (
     <Layout>
       <h1> Welcome to Next.js!</h1>
+      <h3>Made By Okan TOPER</h3>
       <style jsx>{`
         h1 {
           background-color: rgba(219, 35, 219, 0.308);
