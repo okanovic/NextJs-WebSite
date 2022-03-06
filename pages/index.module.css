@@ -1,0 +1,13 @@
+.list{
+    list-style: none;
+    background-color: rgba(73, 20, 73, 0.459);
+}
+.list li {
+    padding: 7.5px 12px;
+    cursor: pointer;
+}
+.list li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f3f3f3;
+    text-decoration: none;
+}

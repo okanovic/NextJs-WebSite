@@ -2,12 +2,12 @@ import Layout from "./../components/layout";
 import unfetch from "isomorphic-unfetch";
 import Link from "next/link";
 import slug from "slug";
+import styles from './index.module.css'
 export function HomePage({ characters }) {
   return (
     <Layout>
       <h1> Welcome to Next.js!</h1>
-      <h3>Made By Okan TOPER</h3>
-      <ul>
+      <ul className={styles.list}>
         {characters.results.map((character) => (
           <li key={character.id}>    
             <Link href="/character/[slug]" as={'character/' + slug(character.name) + '-' + character.id}>
